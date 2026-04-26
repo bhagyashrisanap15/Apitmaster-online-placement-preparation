@@ -40,9 +40,9 @@ const Home = () => {
               <Link to="/signup" className="btn btn-primary btn-hero">
                 Get Started Now <ArrowRight size={18} className="ml-2" />
               </Link>
-              <Link to="#categories" className="btn btn-outline btn-hero hero-explore">
+              <a href="#categories" className="btn btn-outline btn-hero hero-explore">
                 Explore Categories <Grid size={18} className="ml-2" />
-              </Link>
+              </a>
             </div>
           </div>
           
