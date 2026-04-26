@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/footer";
 
 import { Calculator, Brain, BookOpen, Code } from "lucide-react";
 
-function dashboard() {
+function Dashboard() {
   const cards = [
     {
       id: 1,
@@ -61,4 +61,4 @@ function dashboard() {
   );
 }
 
-export default dashboard;
+export default Dashboard;
