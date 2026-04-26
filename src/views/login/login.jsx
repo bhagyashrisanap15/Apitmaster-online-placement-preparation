@@ -46,6 +46,36 @@ export default function Login() {
             />
             Sign in with Facebook
           </a>
+          {/* FORM */}
+          <form onSubmit={handleSubmit}>
+            <div className="divider">or</div>
+
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              className="input-field"
+              placeholder="Enter your email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+
+            <label>Password</label>
+            <input
+              type="password"
+              name="password"
+              className="input-field"
+              placeholder="Enter your password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+            />
+
+            <button type="submit" className="login-btn">
+              Login
+            </button>
+          </form>
 
 
            
