@@ -23,8 +23,8 @@ function dashboard() {
     },
     {
       id: 3,
-      title: "English",
-      description: "Enhance grammar and vocabulary",
+      title : "Verbal Ability",
+      description : "Enhance grammar and vocabulary",
       icon: <BookOpen size={40} />,
     },
     {

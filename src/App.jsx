@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/navbar';
 import Footer from './components/footer/footer';
 import Home from './views/home/home';
 import Aptitude from "./views/categories/aptitude.jsx";
-import dashboard from './views/dashboard/dashboard.jsx';
+import Dashboard from './views/dashboard/dashboard.jsx';
 
 function App() {
   return (
