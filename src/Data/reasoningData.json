@@ -129,9 +129,7 @@
       "Start with the most constrained person",
       "Use elimination to place remaining people",
       "For circular: one person's position is fixed as reference"
-    ],
-
-    
+    ],    
     "questions": [
       { "q": "A, B, C sit in a row. A is left of B, C is right of B. Who is in the middle?", "options": ["A", "B", "C", "Cannot say"], "answer": 1 },
       { "q": "5 people sit in a circle. P is between Q and R. S is opposite P. Where is T?", "options": ["Between Q and S", "Between R and S", "Between Q and R", "Opposite Q"], "answer": 1 },
