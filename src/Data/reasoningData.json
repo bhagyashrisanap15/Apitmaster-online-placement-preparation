@@ -1,0 +1,141 @@
+{
+  "Analogies": {
+    "icon": "🔗",
+    "theory": "Analogy tests measure your ability to identify the relationship between a pair of words and apply that same relationship to another pair. Look for cause-effect, part-whole, synonym, antonym, tool-use, or category relationships.",
+    "formulas": [
+      "Identify the relationship in the given pair",
+      "Apply the same relationship to find the missing word",
+      "Types: Synonyms, Antonyms, Part:Whole, Tool:User, Cause:Effect"
+    ],
+    "questions": [
+      { "q": "Book : Library :: Painting : ?", "options": ["Artist", "Museum", "Canvas", "Gallery"], "answer": 1 },
+      { "q": "Doctor : Hospital :: Teacher : ?", "options": ["Classroom", "School", "Student", "Books"], "answer": 1 },
+      { "q": "Fish : Water :: Bird : ?", "options": ["Tree", "Sky", "Wing", "Nest"], "answer": 1 },
+      { "q": "Pen : Write :: Knife : ?", "options": ["Sharp", "Metal", "Cut", "Cook"], "answer": 2 },
+      { "q": "Sun : Day :: Moon : ?", "options": ["Star", "Light", "Night", "Sky"], "answer": 2 }
+    ]
+  },
+  "Series Completion": {
+    "icon": "🔢",
+    "theory": "Series completion involves identifying the pattern in a sequence of numbers, letters, or figures and finding the next term. Look for arithmetic, geometric, alternating, or Fibonacci-type patterns.",
+    "formulas": [
+      "Arithmetic series: add/subtract a constant",
+      "Geometric series: multiply/divide by a constant",
+      "Square/Cube series: terms are perfect squares or cubes",
+      "Mixed: combination of two operations alternately"
+    ],
+    "questions": [
+      { "q": "2, 4, 8, 16, ?", "options": ["24", "28", "32", "36"], "answer": 2 },
+      { "q": "1, 4, 9, 16, ?", "options": ["20", "24", "25", "30"], "answer": 2 },
+      { "q": "3, 6, 9, 12, ?", "options": ["13", "14", "15", "16"], "answer": 2 },
+      { "q": "A, C, E, G, ?", "options": ["H", "I", "J", "K"], "answer": 1 },
+      { "q": "1, 1, 2, 3, 5, ?", "options": ["6", "7", "8", "9"], "answer": 2 }
+    ]
+  },
+  "Blood Relations": {
+    "icon": "👨‍👩‍👧",
+    "theory": "Blood relation problems test your ability to decode family relationships from given statements. Draw a family tree to map relationships clearly.",
+    "formulas": [
+      "Draw a family tree for complex problems",
+      "Father/Mother → Parent",
+      "Son/Daughter → Child",
+      "Brother/Sister → Sibling",
+      "Uncle/Aunt → Parent's Sibling"
+    ],
+    "questions": [
+      { "q": "A is B's father. B is C's son. What is A to C?", "options": ["Uncle", "Brother", "Grandfather", "Father"], "answer": 2 },
+      { "q": "X's mother is Y's daughter. How is Y related to X?", "options": ["Mother", "Grandmother", "Aunt", "Sister"], "answer": 1 },
+      { "q": "P is Q's brother. Q is R's sister. How is P related to R?", "options": ["Father", "Brother", "Uncle", "Cousin"], "answer": 1 },
+      { "q": "If A is B's sister's husband, what is A to B?", "options": ["Brother", "Brother-in-law", "Uncle", "Cousin"], "answer": 1 },
+      { "q": "M's father is N's son. M is N's?", "options": ["Son", "Grandson", "Nephew", "Grandfather"], "answer": 1 }
+    ]
+  },
+  "Direction Sense": {
+    "icon": "🧭",
+    "theory": "Direction sense tests involve tracking movement in various directions and finding final position or distance from start. Always start by fixing the starting point and tracking each move step by step.",
+    "formulas": [
+      "Directions: North, South, East, West",
+      "Right turn from North → East",
+      "Left turn from North → West",
+      "Pythagoras theorem for diagonal distance",
+      "Draw the path on paper to avoid errors"
+    ],
+    "questions": [
+      { "q": "A walks 5km North, then 5km East. Distance from start?", "options": ["5km", "7km", "10km", "5√2 km"], "answer": 3 },
+      { "q": "Facing North, turn right. Which direction now?", "options": ["South", "East", "West", "North-East"], "answer": 1 },
+      { "q": "A goes 10km South, 5km West, 10km North. Where is A relative to start?", "options": ["5km East", "5km West", "At start", "10km West"], "answer": 1 },
+      { "q": "Facing West, turn right twice. Now facing?", "options": ["North", "South", "East", "West"], "answer": 2 },
+      { "q": "A walks 3km East, 4km North. Distance from start?", "options": ["3km", "4km", "5km", "7km"], "answer": 2 }
+    ]
+  },
+  "Coding-Decoding": {
+    "icon": "🔐",
+    "theory": "Coding-Decoding tests check if you can identify the rule used to encode a word or number and apply it to decode or encode another. Look for letter shifts, reversals, number substitution, or symbol-based patterns.",
+    "formulas": [
+      "Letter shift: each letter moved +N or -N positions in alphabet",
+      "Reverse coding: word or letters written backwards",
+      "Position-based: A=1, B=2, ... Z=26",
+      "Pattern-based: odd positions/even positions coded differently"
+    ],
+    "questions": [
+      { "q": "If CAT = 3120, DOG = ?", "options": ["4157", "4156", "4158", "4155"], "answer": 0 },
+      { "q": "If APPLE is coded as BQQMF, how is MANGO coded?", "options": ["NBOIP", "NBOHP", "NCOHP", "NBOHO"], "answer": 1 },
+      { "q": "If BOOK = 2151511, what is COD?", "options": ["3154", "3164", "3153", "3163"], "answer": 0 },
+      { "q": "If FACE is coded as HCEG, how is BALL coded?", "options": ["DCNN", "DCNO", "DCMN", "DCNM"], "answer": 0 },
+      { "q": "If SUN = 19-21-14, what is SKY?", "options": ["19-11-24", "19-11-25", "18-11-25", "19-12-25"], "answer": 1 }
+    ]
+  },
+  "Syllogism": {
+    "icon": "🧠",
+    "theory": "Syllogism involves drawing conclusions from given statements (premises) using logical reasoning. Use Venn diagrams to visualize relationships between sets.",
+    "formulas": [
+      "All A are B + All B are C → All A are C",
+      "Some A are B + All B are C → Some A are C",
+      "No A is B + All C are A → No C is B",
+      "Use Venn diagrams to visualize overlaps",
+      "Check: Definite vs Possible conclusions"
+    ],
+    "questions": [
+      { "q": "All cats are animals. All animals have hearts. Conclusion?", "options": ["All cats have hearts", "Some cats have hearts", "No cats have hearts", "Cannot say"], "answer": 0 },
+      { "q": "Some books are pens. All pens are pencils. Conclusion?", "options": ["All books are pencils", "Some books are pencils", "No books are pencils", "Cannot say"], "answer": 1 },
+      { "q": "No dog is cat. All cats are animals. Conclusion?", "options": ["No dog is animal", "Some dogs are animals", "Some animals are not dogs", "All animals are dogs"], "answer": 2 },
+      { "q": "All roses are flowers. Some flowers are red. Conclusion?", "options": ["All roses are red", "Some roses are red", "No roses are red", "Cannot say"], "answer": 3 },
+      { "q": "All men are mortal. Socrates is a man. Conclusion?", "options": ["Socrates is immortal", "Socrates is mortal", "Some men are Socrates", "Cannot say"], "answer": 1 }
+    ]
+  },
+  "Odd One Out": {
+    "icon": "🎯",
+    "theory": "Odd One Out tests require identifying which item does not belong to the group. Items can be classified by category, property, number pattern, or letter pattern.",
+    "formulas": [
+      "Group by category (animals, fruits, vehicles, etc.)",
+      "Group by property (color, shape, size, usage)",
+      "Number groups: even/odd, prime/composite, squares",
+      "Letter groups: vowels/consonants, position patterns"
+    ],
+    "questions": [
+      { "q": "Apple, Mango, Carrot, Banana — Odd one out?", "options": ["Apple", "Mango", "Carrot", "Banana"], "answer": 2 },
+      { "q": "2, 3, 5, 6, 7 — Odd one out?", "options": ["2", "3", "6", "7"], "answer": 2 },
+      { "q": "Tiger, Lion, Elephant, Cobra — Odd one out?", "options": ["Tiger", "Lion", "Elephant", "Cobra"], "answer": 3 },
+      { "q": "Chair, Table, Bed, Lamp — Odd one out?", "options": ["Chair", "Table", "Bed", "Lamp"], "answer": 3 },
+      { "q": "4, 9, 16, 25, 35 — Odd one out?", "options": ["9", "16", "25", "35"], "answer": 3 }
+    ]
+  },
+  "Seating Arrangement": {
+    "icon": "🪑",
+    "theory": "Seating arrangement problems involve placing people in a line or circle based on given conditions. Read all conditions first, identify definite positions, then place others relative to them.",
+    "formulas": [
+      "In a line: positions are fixed (1st, 2nd, etc.)",
+      "In a circle: relative positions matter, not absolute",
+      "Start with the most constrained person",
+      "Use elimination to place remaining people",
+      "For circular: one person's position is fixed as reference"
+    ],    
+    "questions": [
+      { "q": "A, B, C sit in a row. A is left of B, C is right of B. Who is in the middle?", "options": ["A", "B", "C", "Cannot say"], "answer": 1 },
+      { "q": "5 people sit in a circle. P is between Q and R. S is opposite P. Where is T?", "options": ["Between Q and S", "Between R and S", "Between Q and R", "Opposite Q"], "answer": 1 },
+      { "q": "In a row of 6, X is 2nd from left, Y is 4th from left. Who is between them?", "options": ["1 person", "2 persons", "3 persons", "No one"], "answer": 0 },
+      { "q": "A sits 3rd from left. B sits 2nd from right in 5 seats. How many between them?", "options": ["0", "1", "2", "3"], "answer": 0 },
+      { "q": "In a row, M is 5th from left and 3rd from right. Total people?", "options": ["6", "7", "8", "9"], "answer": 1 }
+    ]
+  }
+}
